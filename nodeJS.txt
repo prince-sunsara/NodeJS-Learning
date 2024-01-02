@@ -1,0 +1,58 @@
+Node JS  
+    > An open source server environment
+    > JavaScript can be used on the server
+    > A single language for both frontend and backend
+
+What is NodeJs?
+    > nodeJS is a JavaScript which execute on a server
+    > it works on asynchronous non-blocking i/o model
+    > in nodeJS single thread can manage multiple connections
+
+The basics of frontend and backend
+1. Cliend Side
+    > sent a request to server
+    > call it frontend
+    > html, css and js
+
+2. Server Side
+    > sent response to cliend
+    > call it backend
+    > nodeJS
+
+Asynchronous non-blocking i/o model
+    > when you run nodejs on server then its perticular thread can manage multiple connections
+
+
+node --version ---> to check version of node
+npm --version --> to check version of npm
+
+
+NPM:
+    > Node Package Manager
+    > it manage package of node
+
+
+Commands:
+
+    > npm init ---> initialize project as node project
+    > npm install package / npm i package ---> to install nodejs package
+    > npm i -g package ---> it install package globally
+    > npm uninstall package ---> uninstall package
+
+
+What is node module?
+    > node module is a folder, that has all the dependencies that comes from internet
+    > you can use them for your work
+
+What is dev dependencies?
+    > there are some dependencies which we want to just use at development time
+    > this type of dependencies known as dev dependencies
+
+package.json
+    > contains all the information about your project
+    > it has all the packages that you install as dependencies 
+
+package-lock.json  
+    > it has dependencies tree as it is
+    > its like all the dependencies that needed to run the dependencies you installed(for eg express)
+
